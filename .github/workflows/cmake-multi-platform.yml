@@ -63,5 +63,5 @@ jobs:
 
     - name: Show output
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
-      run: ls ${{ github.repository }}
+      run: echo "${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}"
       
