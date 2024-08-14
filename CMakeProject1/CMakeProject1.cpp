@@ -9,5 +9,6 @@ int main()
 {
 	cout << "Hello CMake." << endl;
 	cout << "commit test" << endl;
+	cout << "edited by Visual Studio (Family PC)" << endl;
 	return 0;
 }
